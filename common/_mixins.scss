@@ -1,0 +1,9 @@
+@mixin mixin-example(){
+    /*... */ 
+    font-size: $font-size; 
+    color: $color; 
+
+    @extend  %extend-example; 
+}
+
+ 
